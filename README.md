@@ -10,6 +10,7 @@ Here, we are inserting the random list of numbers [1, 2, 4, 8, 16, 31] from the 
 fn main() {
     let result = newton_gregory_interpolation(vec![1, 2, 4, 8, 16, 31]);
     println!("{}", result);
-}```
+}
+```
 
 Note: The nC notation in the formula represents the binomial coefficient, which is used in the Newton-Gregory interpolation method
